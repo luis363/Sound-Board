@@ -1,0 +1,46 @@
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea27a4a0-d9c4-4318-8ad1-76c21a70cf1c/de989ov-6f1c5826-8fa9-422a-ba3c-e99b450b2bd4.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VhMjdhNGEwLWQ5YzQtNDMxOC04YWQxLTc2YzIxYTcwY2YxY1wvZGU5ODlvdi02ZjFjNTgyNi04ZmE5LTQyMmEtYmEzYy1lOTliNDUwYjJiZDQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Pm6uuZPNrdIoxYh6jLNiM6Gzjyzu1LU0q9GXk526gL8);
+}
+
+
+/*for phone*/
+@media screen and (min-width:320px) and (max-width:640px) {
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+SA+Beginner:wght@600&family=Varela+Round&display=swap');
+
+    body {
+        background-image: url(https://media.tenor.com/cOhgxKZrGqQAAAAC/zoro-one-piece.gif);
+    }
+
+    .container {
+        position: relative;
+        padding-top: 40%;
+        left: 8%;
+        display: inline-grid;
+        row-gap: 20px;
+    }
+
+    button {
+        font-family: 'Anton', sans-serif;
+        font-weight: 0;
+        font-size: 20px;
+        color: #000000;
+        background-color: #ffffff;
+        padding: 5px 50px;
+        border: solid #000000 2px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        border-radius: 1px;
+        transition : 1000ms;
+        transform: translateY(0);
+        text-transform: uppercase; 
+    }
+
+    button:hover { 
+        transition : 1000ms; 
+        padding: 10px 44px; 
+        transform : translateY(-0px);
+        background-color: #000000;
+        color: #ffffff;
+        border: solid 2px #ffffff;
+    }
+}
